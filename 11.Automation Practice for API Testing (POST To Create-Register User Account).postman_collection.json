@@ -1,0 +1,314 @@
+{
+	"info": {
+		"_postman_id": "369144f5-2a30-4de4-bbec-1826c05a1961",
+		"name": "Automation Practice for API Testing (POST To Create/Register User Account)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39951056"
+	},
+	"item": [
+		{
+			"name": "POST To Create/Register User Account",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "hazeel",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "hazeel@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "Mr",
+							"type": "text"
+						},
+						{
+							"key": "birth_day",
+							"value": "26",
+							"type": "text"
+						},
+						{
+							"key": "birth_month",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "birth_year",
+							"value": "1998",
+							"type": "text"
+						},
+						{
+							"key": "firstname",
+							"value": "hazeel",
+							"type": "text"
+						},
+						{
+							"key": "lastname",
+							"value": "amirul",
+							"type": "text"
+						},
+						{
+							"key": "company",
+							"value": "finexus",
+							"type": "text"
+						},
+						{
+							"key": "address1",
+							"value": "KL",
+							"type": "text"
+						},
+						{
+							"key": "address2",
+							"value": "KL",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "Malaysia",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "Selangor",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Dengkil",
+							"type": "text"
+						},
+						{
+							"key": "zipcode",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "mobile_number",
+							"value": "0139535656",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://automationexercise.com/api/createAccount",
+					"protocol": "https",
+					"host": [
+						"automationexercise",
+						"com"
+					],
+					"path": [
+						"api",
+						"createAccount"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "POST To Create/Register User Account",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "hazeel",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "nikhazeel@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": " test1234",
+									"type": "text"
+								},
+								{
+									"key": "title",
+									"value": "Mr",
+									"type": "text"
+								},
+								{
+									"key": "birth_day",
+									"value": "26",
+									"type": "text"
+								},
+								{
+									"key": "birth_month",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "birth_year",
+									"value": "1998",
+									"type": "text"
+								},
+								{
+									"key": "firstname",
+									"value": "hazeel",
+									"type": "text"
+								},
+								{
+									"key": "lastname",
+									"value": "zainuddin",
+									"type": "text"
+								},
+								{
+									"key": "company",
+									"value": "finexus",
+									"type": "text"
+								},
+								{
+									"key": "address1",
+									"value": "KL",
+									"type": "text"
+								},
+								{
+									"key": "address2",
+									"value": "KL",
+									"type": "text"
+								},
+								{
+									"key": "country",
+									"value": "Malaysia",
+									"type": "text"
+								},
+								{
+									"key": "state",
+									"value": "Selangor",
+									"type": "text"
+								},
+								{
+									"key": "city",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "zipcode",
+									"value": " ",
+									"type": "text"
+								},
+								{
+									"key": "mobile_number",
+									"value": "0139535656",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://automationexercise.com/api/createAccount",
+							"protocol": "https",
+							"host": [
+								"automationexercise",
+								"com"
+							],
+							"path": [
+								"api",
+								"createAccount"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 16 Aug 2025 21:42:04 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept,Cookie,Accept-Encoding"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Allow",
+							"value": "OPTIONS, POST"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Phusion Passenger(R) 6.0.23"
+						},
+						{
+							"key": "Status",
+							"value": "200 OK"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZopaK0WQJNjRbjrHCb%2FbvWdVZu0eQnq9yzQI3r5BVVa%2F5w1U0JCAqprpvlL2X2OZ5UlfgbTDUPlqAlISl%2Bnw7Wr0wrA%2BJIZ3owmnQi3HyZMHjzZ8\"}]}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Cf-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "970419727ac7396f-KUL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\"responseCode\": 201, \"message\": \"User created!\"}"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,149 @@
+{
+	"info": {
+		"_postman_id": "b7bb6f9a-0572-4589-bcbd-cfefcc171658",
+		"name": "Automation Practice for API Testing (POST To Search Product)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39951056"
+	},
+	"item": [
+		{
+			"name": "Post to Search Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "search_product",
+							"value": "tshirt",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://automationexercise.com/api/searchProduct",
+					"protocol": "https",
+					"host": [
+						"automationexercise",
+						"com"
+					],
+					"path": [
+						"api",
+						"searchProduct"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Post to Search Product",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "search_product",
+									"value": "tshirt",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://automationexercise.com/api/searchProduct",
+							"protocol": "https",
+							"host": [
+								"automationexercise",
+								"com"
+							],
+							"path": [
+								"api",
+								"searchProduct"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 16 Aug 2025 21:09:47 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept,Cookie,Accept-Encoding"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Allow",
+							"value": "DELETE, GET, OPTIONS, PUT, POST"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Phusion Passenger(R) 6.0.23"
+						},
+						{
+							"key": "Status",
+							"value": "200 OK"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=56VponXp2s%2FYYfD6L4UZ00UwTbdIyrFmNcNwN4dlifc3tKE7UnisduG8MkCunxQBXWxOGYlTfREYT80aKFGHQ7rCZXUhU20Xny0Tpx7CuldmjJIF\"}]}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Cf-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "9703ea23f8375876-KUL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\"responseCode\": 200, \"products\": [{\"id\": 2, \"name\": \"Men Tshirt\", \"price\": \"Rs. 400\", \"brand\": \"H&M\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}, {\"id\": 28, \"name\": \"Pure Cotton V-Neck T-Shirt\", \"price\": \"Rs. 1299\", \"brand\": \"H&M\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}, {\"id\": 29, \"name\": \"Green Side Placket Detail T-Shirt\", \"price\": \"Rs. 1000\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}, {\"id\": 30, \"name\": \"Premium Polo T-Shirts\", \"price\": \"Rs. 1500\", \"brand\": \"Polo\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}, {\"id\": 31, \"name\": \"Pure Cotton Neon Green Tshirt\", \"price\": \"Rs. 850\", \"brand\": \"H&M\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}, {\"id\": 43, \"name\": \"GRAPHIC DESIGN MEN T SHIRT - BLUE\", \"price\": \"Rs. 1389\", \"brand\": \"Mast & Harbour\", \"category\": {\"usertype\": {\"usertype\": \"Men\"}, \"category\": \"Tshirts\"}}]}"
+				}
+			]
+		}
+	]
+}

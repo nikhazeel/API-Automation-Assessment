@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "cdd9a553-69a8-4247-ab8c-0deec84115dc",
+		"name": "Automation Practice for API Testing (POST To Search Product without search_product parameter))",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39951056"
+	},
+	"item": [
+		{
+			"name": "POST To Search Product without search_product parameter",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://automationexercise.com/api/searchProduct",
+					"protocol": "https",
+					"host": [
+						"automationexercise",
+						"com"
+					],
+					"path": [
+						"api",
+						"searchProduct"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "POST To Search Product without search_product parameter",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://automationexercise.com/api/searchProduct",
+							"protocol": "https",
+							"host": [
+								"automationexercise",
+								"com"
+							],
+							"path": [
+								"api",
+								"searchProduct"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 16 Aug 2025 21:12:37 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept,Cookie,Accept-Encoding"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Allow",
+							"value": "DELETE, GET, OPTIONS, PUT, POST"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Phusion Passenger(R) 6.0.23"
+						},
+						{
+							"key": "Status",
+							"value": "200 OK"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=tBDJykBIlS%2BXCCBAZZYwWpH86N4vNZC2EZJE4U5QuPkR%2BnceN9ZmBg3rQZYkZMFfvRc69IMKLmY1IMkz0jeT17UoHgJFcUS0HPsRxtOF3SKwYNBG\"}]}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Cf-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "9703ee4eea449c13-KUL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\"responseCode\": 400, \"message\": \"Bad request, search_product parameter is missing in POST request.\"}"
+				}
+			]
+		}
+	]
+}

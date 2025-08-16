@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "c13c4e27-a427-445b-8661-5d59c54b5385",
+		"name": "Automation Practice for API Testing (GET user account detail by email)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39951056"
+	},
+	"item": [
+		{
+			"name": "GET user account detail by email",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://automationexercise.com/api/getUserDetailByEmail?email=nikhazeel@gmail.com",
+					"protocol": "https",
+					"host": [
+						"automationexercise",
+						"com"
+					],
+					"path": [
+						"api",
+						"getUserDetailByEmail"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "nikhazeel@gmail.com"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GET user account detail by email",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "https://automationexercise.com/api/getUserDetailByEmail?email=nikhazeel@gmail.com",
+							"protocol": "https",
+							"host": [
+								"automationexercise",
+								"com"
+							],
+							"path": [
+								"api",
+								"getUserDetailByEmail"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "nikhazeel@gmail.com"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 16 Aug 2025 22:08:55 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept,Cookie,Accept-Encoding"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Allow",
+							"value": "DELETE, GET, OPTIONS, POST, PUT"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Phusion Passenger(R) 6.0.23"
+						},
+						{
+							"key": "Status",
+							"value": "200 OK"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZWRSdvy1WdrLsNZYApinaEG3M4O50yCqhN60vPI52gg69ER6PNCjqSo0Q1bZVBHfa5QpGAAsilp96zsLLO4C0nyx0ztcXrWwp2s8Krjp9%2BosYpah\"}]}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Cf-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "970440c5897be53d-KUL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\"responseCode\": 200, \"user\": {\"id\": 888810, \"name\": \"hazeel\", \"email\": \"nikhazeel@gmail.com\", \"title\": \"Mr\", \"birth_day\": \"\", \"birth_month\": \"5\", \"birth_year\": \"1998\", \"first_name\": \"hazeel\", \"last_name\": \"zainuddin\", \"company\": \"finexus\", \"address1\": \"KL\", \"address2\": \"KL\", \"country\": \"Malaysia\", \"state\": \"Selangor\", \"city\": \"\", \"zipcode\": \" \"}}"
+				}
+			]
+		}
+	]
+}

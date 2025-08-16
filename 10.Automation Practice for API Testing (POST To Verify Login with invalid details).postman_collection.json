@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "2569b1aa-9231-4e1e-b459-10c782e38443",
+		"name": "Automation Practice for API Testing (POST To Verify Login with invalid details)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39951056"
+	},
+	"item": [
+		{
+			"name": "POST To Verify Login with invalid details",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "nikhazeel@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "test123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://automationexercise.com/api/verifyLogin",
+					"protocol": "https",
+					"host": [
+						"automationexercise",
+						"com"
+					],
+					"path": [
+						"api",
+						"verifyLogin"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "POST To Verify Login with invalid details",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "nikhazeel@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "test123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://automationexercise.com/api/verifyLogin",
+							"protocol": "https",
+							"host": [
+								"automationexercise",
+								"com"
+							],
+							"path": [
+								"api",
+								"verifyLogin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 16 Aug 2025 21:57:42 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept,Cookie,Accept-Encoding"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Allow",
+							"value": "DELETE, GET, OPTIONS, PUT, POST"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Phusion Passenger(R) 6.0.23"
+						},
+						{
+							"key": "Status",
+							"value": "200 OK"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=QJrUENWyPFCNgWflt0D471yPzWhvtQY3X1Fy9TkCF2MZTN2vHPXos9mLkG%2BX3QmIpVKkKzUEI7pYIFHbFtgk%2Bo%2BcxRLSLzElnycSOxPnR5i051pm\"}]}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Cf-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "97043057ac6fdc17-KUL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\"responseCode\": 404, \"message\": \"User not found!\"}"
+				}
+			]
+		}
+	]
+}

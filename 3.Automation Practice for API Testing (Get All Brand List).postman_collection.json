@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "b5cd7329-f3c2-4e43-8b8b-d6f8fae0073f",
+		"name": "Automation Practice for API Testing (Get All Brand List)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39951056"
+	},
+	"item": [
+		{
+			"name": "Get All Brands List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://automationexercise.com/api/brandsList",
+					"protocol": "https",
+					"host": [
+						"automationexercise",
+						"com"
+					],
+					"path": [
+						"api",
+						"brandsList"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get All Brands List",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://automationexercise.com/api/brandsList",
+							"protocol": "https",
+							"host": [
+								"automationexercise",
+								"com"
+							],
+							"path": [
+								"api",
+								"brandsList"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 16 Aug 2025 21:04:21 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept,Cookie,Accept-Encoding"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Allow",
+							"value": "DELETE, GET, OPTIONS, PUT, POST"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Phusion Passenger(R) 6.0.23"
+						},
+						{
+							"key": "Status",
+							"value": "200 OK"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Vm1y3bBljYnS9hAINMiEU2auWPJ9O6YGQ3duBzMrKojEH3fUx90VB8f9IPz1K5kQDTVWINWBkBm6x7UMTw4ohwbEfbHgBCJmCN1A77XFuxxau%2Fz6\"}]}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Cf-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "9703e22fdc9328a3-KUL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\"responseCode\": 200, \"brands\": [{\"id\": 1, \"brand\": \"Polo\"}, {\"id\": 2, \"brand\": \"H&M\"}, {\"id\": 3, \"brand\": \"Madame\"}, {\"id\": 4, \"brand\": \"Madame\"}, {\"id\": 5, \"brand\": \"Mast & Harbour\"}, {\"id\": 6, \"brand\": \"H&M\"}, {\"id\": 7, \"brand\": \"Madame\"}, {\"id\": 8, \"brand\": \"Polo\"}, {\"id\": 11, \"brand\": \"Babyhug\"}, {\"id\": 12, \"brand\": \"Babyhug\"}, {\"id\": 13, \"brand\": \"Allen Solly Junior\"}, {\"id\": 14, \"brand\": \"Kookie Kids\"}, {\"id\": 15, \"brand\": \"Babyhug\"}, {\"id\": 16, \"brand\": \"Babyhug\"}, {\"id\": 18, \"brand\": \"Kookie Kids\"}, {\"id\": 19, \"brand\": \"Allen Solly Junior\"}, {\"id\": 20, \"brand\": \"Kookie Kids\"}, {\"id\": 21, \"brand\": \"Biba\"}, {\"id\": 22, \"brand\": \"Biba\"}, {\"id\": 23, \"brand\": \"Biba\"}, {\"id\": 24, \"brand\": \"Allen Solly Junior\"}, {\"id\": 28, \"brand\": \"H&M\"}, {\"id\": 29, \"brand\": \"Polo\"}, {\"id\": 30, \"brand\": \"Polo\"}, {\"id\": 31, \"brand\": \"H&M\"}, {\"id\": 33, \"brand\": \"Polo\"}, {\"id\": 35, \"brand\": \"H&M\"}, {\"id\": 37, \"brand\": \"Polo\"}, {\"id\": 38, \"brand\": \"Madame\"}, {\"id\": 39, \"brand\": \"Biba\"}, {\"id\": 40, \"brand\": \"Biba\"}, {\"id\": 41, \"brand\": \"Madame\"}, {\"id\": 42, \"brand\": \"Mast & Harbour\"}, {\"id\": 43, \"brand\": \"Mast & Harbour\"}]}"
+				}
+			]
+		}
+	]
+}
